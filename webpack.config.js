@@ -37,6 +37,17 @@ module.exports = {
                 ],
                 exclude: /node_modules/
             },
+            {
+                test: /\.(png|jpg|gif)$/,
+                use: [
+                  {
+                    loader: 'url-loader',
+                    options: {
+                      limit: 5000,
+                    },
+                  },
+                ],
+            },
         ],    
     },
     plugins: [
