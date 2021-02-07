@@ -1,0 +1,54 @@
+.app-nav {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 9999;
+    padding: 25px;
+    transition: 1s;
+}
+
+.app-nav--background {
+    background-color: #becbba;
+    padding: 15px;
+}
+
+.app-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.app-nav__brand {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFF;
+    transition: 1s;
+
+}
+
+.app-name__brand--small {
+    font-size: 30px;
+}
+
+.app-nav__list {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.app-nav__list--small {
+    font-size: 14px !important;
+}
+
+.app-nav__item {
+    display: inline;
+    margin-left: 25px;  
+    margin-right: 25px;
+    color: #FFF;
+    cursor: pointer;
+}

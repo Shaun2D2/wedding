@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Tangerine:wght@700&display=swap');
+
+// purple #cec7d2
+// green #becbba
+// yello #e4c771
+// pink #fcf3f3
+
+$purple: #cec7d2;
+$green: #becbba;
+
+$body-bg: $purple;
+$font-family-sans-serif: 'Raleway', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 body {
     margin: 0px;
 }

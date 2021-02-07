@@ -1,0 +1,32 @@
+.hero {
+    background-image: url('../images/splash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__overlay {
+    background-color: #000;
+    opacity: .35;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__annoucment {
+    color: #fff;
+    font-family: 'Tangerine', cursive;
+    font-size: 125px;
+    z-index: 2;
+}

@@ -1,0 +1,39 @@
+.app-card {
+    background-color: #fcf3f3;
+    padding: 20px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.app-card__content {
+    border: 5px solid #fff;
+    padding: 20px;
+}
+
+.app-monogram {
+    border-radius: 100%;
+    font-weight: bold;
+    width: 140px;
+    height: 140px;
+    background-color: #fcf3f3;
+    padding: 20px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -90px;
+    margin-bottom: 25px;
+}
+
+.app-monogram__content {
+    border-radius: 100%;
+    border: 5px solid #fff;
+    display: inline;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+}
