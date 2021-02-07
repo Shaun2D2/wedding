@@ -19,6 +19,7 @@ const Nav = () => {
                     <ul className={classNames('app-nav__list', { 'app-nav__list--small': scrolled })}>
                         <li className="app-nav__item">Event Details</li>
                         <li className="app-nav__item">RSVP</li>
+                        <li className="app-nav__item">Photos</li>
                     </ul>
                 </div>
             </div>

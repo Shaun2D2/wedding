@@ -1,0 +1,49 @@
+.savethedate {
+    background-color: #e4c771 !important
+}
+
+.savethedate__date {
+    margin-right: 40px;
+}
+
+.savethedate__text-date {
+    font-size: 30px;
+}
+
+.savethedate__text-year {
+    font-size: 121px;
+    line-height: 1;
+}
+
+.savethedate__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.savethedate__address {
+    margin-left: 40px;
+    p {
+        margin-bottom: 0px;
+    }
+    .savethedate__address-time {
+        font-size: 30px;
+    }
+    .savethedate__venue {
+        line-height: 1.2;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .savethedate__address-info {
+        font-size: 20px;
+    }
+    .savethedate__events {
+        font-size: 20px;
+    }
+}
+
+.savethedate__seperator {
+    border-right: 1px solid #000;
+    height: 175px;
+}

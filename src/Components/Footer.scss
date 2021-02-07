@@ -1,0 +1,14 @@
+.app-footer {
+    background-color: #cec7d2;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-footer__address,
+.app-footer__events,
+.app-footer__contact {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+}
